@@ -34,3 +34,7 @@ Best Practices, however, are recommendations that may help with security, perfor
 13. Avoid using the PHP mail() function direction as your mail may be subjected to [header injection](http://www.php.net/manual/en/function.mail.php#56788)
 14. [Avoid reinventing the wheel](http://talks.php.net/show/php-best-practices/6), use existing functions, extensions (PECL) libraries (PEAR), frameworks (CodeIgniter, Zend, Laravel) as they will often already be optimised
 15. [Avoid using functions inside of loops](http://wayback.archive.org/web/20100706232020/http://www.php.lt/benchmark/phpbench.php), such as for ($x=0; $x < count($array); $x) as count() function would get called each time
+16. [Always declare static methods](http://www.ilia.ws/files/zend_performance.pdf), when the method has no dynamic content
+17. Use [Class Constants](http://www.ilia.ws/files/zend_performance.pdf)
+18. Use [full paths](http://wayback.archive.org/web/20100201223601/http://t3.dotgnu.info/blog/php/include_once-mostly-harmless.html) in includes and requires, less time spent on resolving the file system paths
+19. [Avoid function calls](http://www.ilia.ws/files/zend_performance.pdf) if there's a constant or variable (eg: PHP_VERSION vs php_version() or [$_SERVER[’REQUEST_TIME’] vs time()](http://www.php.net/time))
