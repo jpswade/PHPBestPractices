@@ -55,3 +55,17 @@ Best Practices, however, are recommendations that may help with security, perfor
 30. 
 [RTFM](http://en.wikipedia.org/wiki/RTFM)! PHP offers a [fantastic manual](http://www.php.net/manual/), possibly one of the best out there, which makes it a very hands on language, providing working examples and talking in plain English. [Please USE IT!](http://xkcd.com/293/)
 
+## QUOTES
+
+PHP has a few quirks which we sometimes approach with best practices while they can otherwise be addressed with a quote.
+
+Listed here are a number of quotes that may go some way to help explain why certain things are certain ways.
+
+* Never memorize something that you can look up -- [Albert Einstein](http://www.goodreads.com/quotes/24194-never-memorize-something-that-you-can-look-up)
+* I'm not a real programmer. I throw together things until it works then I move on. The real programmers will say "Yeah it works but you're leaking memory everywhere. Perhaps we should fix that." I’ll just restart Apache every 10 requests. -- [Rasmus Lerdorf](http://itc.conversationsnetwork.org/shows/detail3298.html)
+* The sooner you start to code, the longer the program will take -- [Roy Carlson, University of Wisconsin](http://www.bowdoin.edu/~ltoma/teaching/cs340/spring05/coursestuff/Bentley_BumperSticker.pdf)
+* PHP is just a hammer. Nobody has ever gotten rich making hammers. -- [Rasmus Lerdorf](https://twitter.com/rasmus/status/466911047044300800)
+* Some people, when confronted with a problem, think "I know, I'll use regular expressions." Now they have two problems. -- [Jamie Zawinski, in comp.lang.emacs](http://regex.info/blog/2006-09-15/247)
+* We should forget about small efficiencies, say about 97% of the time: premature optimization is the root of all evil. Yet we should not pass up our opportunities in that critical 3% -- [Donald Knuth](http://en.wikipedia.org/wiki/Donald_Knuth)
+* Everything in the box is kind of weird and quirky, but maybe not enough to make it completely worthless. And there’s no clear problem with the set as a whole; it still has all the tools -- [Alex Munroe](http://blog.codinghorror.com/the-php-singularity/)
+* The echo chamber of geeks sitting around playing with their tools means absolutely nothing to me compared to seeing the code actually saving peoples' lives -- Rasmus Lerdorf](http://www.infoworld.com/article/2609877/web-development/believe-the-hype--php-founder-backs-facebook-s-hiphop-technology.html)
