@@ -52,8 +52,7 @@ Best Practices, however, are recommendations that may help with security, perfor
 27. Upgrade to the latest version of PHP, it's (often) faster, [PHP7](http://talks.php.net/oz15#/) is the fastest yet!
 28. [Avoid blindly using empty()](http://www.zachstronaut.com/posts/2009/02/09/careful-with-php-empty.html), consider isset() or count() or strlen() if they are more appropriate
 29. [The mysql_ functions are deprecated](https://wiki.php.net/rfc/mysql_deprecation) and will be removed in the future: use [mysqli](http://php.net/manual/en/book.mysqli.php) or [PDO](http://php.net/manual/en/ref.pdo-mysql.php) instead
-30. 
-[RTFM](http://en.wikipedia.org/wiki/RTFM)! PHP offers a [fantastic manual](http://www.php.net/manual/), possibly one of the best out there, which makes it a very hands on language, providing working examples and talking in plain English. [Please USE IT!](http://xkcd.com/293/)
+30. [RTFM](http://en.wikipedia.org/wiki/RTFM)! PHP offers a [fantastic manual](http://www.php.net/manual/), possibly one of the best out there, which makes it a very hands on language, providing working examples and talking in plain English. [Please USE IT!](http://xkcd.com/293/)
 
 ## QUOTES
 
