@@ -41,7 +41,7 @@ Best Practices, however, are recommendations that may help with security, perfor
 16. [Always declare static methods](http://www.ilia.ws/files/zend_performance.pdf), when the method has no dynamic content
 17. Use [Class Constants](http://www.ilia.ws/files/zend_performance.pdf)
 18. Use [full paths](http://wayback.archive.org/web/20100201223601/http://t3.dotgnu.info/blog/php/include_once-mostly-harmless.html) in includes and requires, less time spent on resolving the file system paths
-19. [Avoid function calls](http://www.ilia.ws/files/zend_performance.pdf) if there's a constant or variable (eg: PHP_VERSION vs php_version() or [$_SERVER[’REQUEST_TIME’] vs time()](http://www.php.net/time))
+19. [Avoid function calls](http://www.ilia.ws/files/zend_performance.pdf) if there's a constant or variable (eg: PHP_VERSION vs php_version() or [$_SERVER['REQUEST_TIME'] vs time()](http://www.php.net/time))
 20. [Cache your web pages](http://phplens.com/phpeverywhere/tuning-apache-php) using systems built into your framework or a library such as [PEAR Cache:Lite](http://pear.php.net/Cache_Lite)
 21. [Profile your code](http://talks.php.net/show/php-best-practices/39). A profiler shows you, which parts of your code consumes how many time. The [Xdebug debugger](http://xdebug.org/) already contains a profiler. Profiling shows you the bottlenecks in overview
 22. [Separate code, content and presentation](http://wayback.archive.org/web/20090209025333/http://www.ibm.com/developerworks/library/wa-phprock1/index.html): keep complex logic separate from presentation markup, akin to the Model–View–Controller (MVC) architectural pattern
@@ -61,10 +61,10 @@ PHP has a few quirks which we sometimes approach with best practices while they 
 Listed here are a number of quotes that may go some way to help explain why certain things are certain ways.
 
 * Never memorize something that you can look up -- [Albert Einstein](http://www.goodreads.com/quotes/24194-never-memorize-something-that-you-can-look-up)
-* I'm not a real programmer. I throw together things until it works then I move on. The real programmers will say "Yeah it works but you're leaking memory everywhere. Perhaps we should fix that." I’ll just restart Apache every 10 requests. -- [Rasmus Lerdorf](http://itc.conversationsnetwork.org/shows/detail3298.html)
+* I'm not a real programmer. I throw together things until it works then I move on. The real programmers will say "Yeah it works but you're leaking memory everywhere. Perhaps we should fix that." I'll just restart Apache every 10 requests. -- [Rasmus Lerdorf](http://itc.conversationsnetwork.org/shows/detail3298.html)
 * The sooner you start to code, the longer the program will take -- [Roy Carlson, University of Wisconsin](http://www.bowdoin.edu/~ltoma/teaching/cs340/spring05/coursestuff/Bentley_BumperSticker.pdf)
 * PHP is just a hammer. Nobody has ever gotten rich making hammers. -- [Rasmus Lerdorf](https://twitter.com/rasmus/status/466911047044300800)
 * Some people, when confronted with a problem, think "I know, I'll use regular expressions." Now they have two problems. -- [Jamie Zawinski, in comp.lang.emacs](http://regex.info/blog/2006-09-15/247)
 * We should forget about small efficiencies, say about 97% of the time: premature optimization is the root of all evil. Yet we should not pass up our opportunities in that critical 3% -- [Donald Knuth](http://en.wikipedia.org/wiki/Donald_Knuth)
-* Everything in the box is kind of weird and quirky, but maybe not enough to make it completely worthless. And there’s no clear problem with the set as a whole; it still has all the tools -- [Alex Munroe](http://blog.codinghorror.com/the-php-singularity/)
+* Everything in the box is kind of weird and quirky, but maybe not enough to make it completely worthless. And there's no clear problem with the set as a whole; it still has all the tools -- [Alex Munroe](http://blog.codinghorror.com/the-php-singularity/)
 * The echo chamber of geeks sitting around playing with their tools means absolutely nothing to me compared to seeing the code actually saving peoples' lives -- Rasmus Lerdorf](http://www.infoworld.com/article/2609877/web-development/believe-the-hype--php-founder-backs-facebook-s-hiphop-technology.html)
