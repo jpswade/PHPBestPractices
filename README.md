@@ -53,7 +53,8 @@ Best Practices, however, are recommendations that may help with security, perfor
 28. [Avoid blindly using empty()](http://www.zachstronaut.com/posts/2009/02/09/careful-with-php-empty.html), consider isset() or count() or strlen() if they are more appropriate
 29. [The mysql_ functions are deprecated](https://wiki.php.net/rfc/mysql_deprecation) and will be removed in the future: use [mysqli](http://php.net/manual/en/book.mysqli.php) or [PDO](http://php.net/manual/en/ref.pdo-mysql.php) instead
 30. Work with automated and repeatable development environments using tools such as [Vagrant, Virtualbox](http://talks.php.net/velocity15#/php_contribute2) and [Puppet](https://puphpet.com/) makes it easy
-31. [RTFM](http://en.wikipedia.org/wiki/RTFM)! PHP offers a [fantastic manual](http://www.php.net/manual/), possibly one of the best out there, which makes it a very hands on language, providing working examples and talking in plain English. [Please USE IT!](http://xkcd.com/293/)
+31. Use version control to help [tame PHP projects as they scale](http://talks.php.net/show/taming-large-scale/0), learn to use [git](https://en.wikipedia.org/wiki/Git_(software)), [PHP is one of the most popular languages on GitHub](http://adambard.com/blog/top-github-languages-2014/) so it's here to stay
+32. [RTFM](http://en.wikipedia.org/wiki/RTFM)! PHP offers a [fantastic manual](http://www.php.net/manual/), possibly one of the best out there, which makes it a very hands on language, providing working examples and talking in plain English. [Please USE IT!](http://xkcd.com/293/)
 
 ## QUOTES
 
