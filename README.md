@@ -46,7 +46,7 @@ Best Practices, however, are recommendations that may help with security, perfor
 21. [Profile your code](http://talks.php.net/show/php-best-practices/39). A profiler shows you, which parts of your code consumes how many time. The [Xdebug debugger](http://xdebug.org/) already contains a profiler. Profiling shows you the bottlenecks in overview
 22. [Separate code, content and presentation](http://wayback.archive.org/web/20090209025333/http://www.ibm.com/developerworks/library/wa-phprock1/index.html): keep complex logic separate from presentation markup, akin to the Model–View–Controller (MVC) architectural pattern
 23. Learn [how to store passwords safely](https://alias.io/2010/01/store-passwords-safely-with-php-and-mysql/), [never store passwords as clear text or simple md5 hash](http://talks.php.net/show/php-best-practices/28)
-24. Use your IDE, there's [plenty of great IDEs out there that support PHP](http://www.smashingmagazine.com/2009/02/the-big-php-ides-test-why-use-oneand-which-to-choose/)
+24. Use an IDE, there's [plenty of great IDEs out there that support PHP](http://www.smashingmagazine.com/2009/02/the-big-php-ides-test-why-use-oneand-which-to-choose/)
 25. [Turn on error reporting](http://talks.php.net/show/php-best-practices/11), use strict code, avoid suppressing errors, notices and warnings, resulting in cleaner code and less overheads, set error_reporting(E_ALL) always on
 26. [Use the standards <?php ... ?> tags](http://talks.php.net/show/php-best-practices/10) when declaring PHP as all other styles are depreciated, including short tags.
 27. Upgrade to the latest version of PHP, it's (often) faster, [PHP7](http://talks.php.net/oz15#/) is the fastest yet!
