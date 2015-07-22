@@ -71,3 +71,20 @@ Listed here are a number of quotes that may go some way to help explain why cert
 * Everything in the box is kind of weird and quirky, but maybe not enough to make it completely worthless. And there's no clear problem with the set as a whole; it still has all the tools -- [Alex Munroe](http://blog.codinghorror.com/the-php-singularity/)
 * The echo chamber of geeks sitting around playing with their tools means absolutely nothing to me compared to seeing the code actually saving peoples' lives -- Rasmus Lerdorf](http://www.infoworld.com/article/2609877/web-development/believe-the-hype--php-founder-backs-facebook-s-hiphop-technology.html)
 * Talk is cheap. Show me the code. -- [Linus Torvalds](https://lkml.org/lkml/2000/8/25/132)
+
+## BOOKS
+
+* [Modern PHP: New Features and Good Practices -- Josh Lockhart](http://amzn.to/1MooHQw)
+* [PHP Cookbook: Solutions & Examples for PHP Programmers -- David Sklar](http://amzn.to/1Ij4Zmn)
+* [PHP: Crash Course - The Ultimate Beginner's Course to Learning PHP Programming in Under 12 Hours -- Eprogramy](http://amzn.to/1Ij5aOJ)
+* [Head First PHP & MySQL -- Lynn Beighley](http://amzn.to/1Mop9ye)
+* [PHP and MySQL for Dynamic Web Sites -- Larry Ullman](http://amzn.to/1Mopfpw)
+* [Learning PHP, MySQL, JavaScript, & CSS -- Robin Nixon](http://amzn.to/1KkyGpu)
+* [Beginning PHP and MySQL: From Novice to Professional -- W Jason Gilmore](http://amzn.to/1MopvEX)
+* [Programming PHP -- Kevin Tatroe](http://amzn.to/1GD0gqi)
+* [Professional WordPress: Design and Development -- Brad Williams, David Damstra, Hal Stern](http://amzn.to/1GD0Vry)
+* [PHP Pocket Reference -- Rasmus Lerdorf](http://amzn.to/1Ij4HvQ)
+
+## SEE ALSO
+
+* [jpswade](http://twitter.com/jpswade) on Twitter
