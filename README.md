@@ -53,7 +53,7 @@ Best Practices, however, are recommendations that may help with security, perfor
 28. [Avoid blindly using empty()](http://www.zachstronaut.com/posts/2009/02/09/careful-with-php-empty.html), consider isset() or count() or strlen() if they are more appropriate
 29. [The mysql_ functions are deprecated](https://wiki.php.net/rfc/mysql_deprecation) and will be removed in the future: use [mysqli](http://php.net/manual/en/book.mysqli.php) or [PDO](http://php.net/manual/en/ref.pdo-mysql.php) instead
 30. Work with automated and repeatable development environments using tools such as [Vagrant, Virtualbox](http://talks.php.net/velocity15#/php_contribute2) and [Puppet](https://puphpet.com/) makes it easy
-31. Use version control to help [tame PHP projects as they scale](http://talks.php.net/show/taming-large-scale/0), learn to use [git](https://en.wikipedia.org/wiki/Git_(software)), [PHP is one of the most popular languages on GitHub](http://adambard.com/blog/top-github-languages-2014/) so it's here to stay
+31. Use version control to help [tame PHP projects as they scale](http://talks.php.net/show/taming-large-scale/0), learn to use [git](https://en.wikipedia.org/wiki/Git_(software)), [PHP is one of the most popular languages on GitHub](http://adambard.com/blog/top-github-languages-2014/) so it's here to stay, get used to it.
 32. [Document your code](http://talks.php.net/show/php-best-practices/16), use tools such as [phpDocumentor](http://www.phpdoc.org/)
 33. Learn how to do [Unit Testing](http://talks.php.net/show/tdd-dpc7/4) using tools such as [phpUnit](https://phpunit.de/)
 34. [RTFM](http://en.wikipedia.org/wiki/RTFM)! PHP offers a [fantastic manual](http://www.php.net/manual/), possibly one of the best out there, which makes it a very hands on language, providing working examples and talking in plain English. [Please USE IT!](http://xkcd.com/293/)
@@ -74,6 +74,7 @@ Listed here are a number of quotes that may go some way to help explain why cert
 * The echo chamber of geeks sitting around playing with their tools means absolutely nothing to me compared to seeing the code actually saving peoples' lives -- Rasmus Lerdorf](http://www.infoworld.com/article/2609877/web-development/believe-the-hype--php-founder-backs-facebook-s-hiphop-technology.html)
 * Talk is cheap. Show me the code. -- [Linus Torvalds](https://lkml.org/lkml/2000/8/25/132)
 * Release early, release often -- [Eric S. Raymond](https://en.wikipedia.org/wiki/The_Cathedral_and_the_Bazaar)
+* "A problem well stated is a problem half-solved." - [Charles Kettering](http://www.levyinnovation.com/a-problem-well-stated-is-half-solved)
 
 ## BOOKS
 
