@@ -89,6 +89,8 @@ Listed here are a number of quotes that may go some way to help explain why cert
 * [Professional WordPress: Design and Development -- Brad Williams, David Damstra, Hal Stern](http://amzn.to/1GD0Vry)
 * [PHP Pocket Reference -- Rasmus Lerdorf](http://amzn.to/1Ij4HvQ)
 
-## SEE ALSO
+## THANKS
 
-* [jpswade](http://twitter.com/jpswade) on Twitter
+* [James Wade](http://wade.be/)
+* [Phurix Web Hosting](http://www.phurix.co.uk/)
+* [Stoneacre Motor Group](http://www.stoneacre.co.uk/)
