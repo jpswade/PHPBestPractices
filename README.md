@@ -56,7 +56,8 @@ Best Practices, however, are recommendations that may help with security, perfor
 31. Use version control to help [tame PHP projects as they scale](http://talks.php.net/show/taming-large-scale/0), learn to use [git](https://en.wikipedia.org/wiki/Git_(software)), [PHP is one of the most popular languages on GitHub](http://adambard.com/blog/top-github-languages-2014/) so it's here to stay, get used to it.
 32. [Document your code](http://talks.php.net/show/php-best-practices/16), use tools such as [phpDocumentor](http://www.phpdoc.org/)
 33. Learn how to do [Unit Testing](http://talks.php.net/show/tdd-dpc7/4) using tools such as [phpUnit](https://phpunit.de/)
-34. [RTFM](http://en.wikipedia.org/wiki/RTFM)! PHP offers a [fantastic manual](http://www.php.net/manual/), possibly one of the best out there, which makes it a very hands on language, providing working examples and talking in plain English. [Please USE IT!](http://xkcd.com/293/)
+34. Use the type safe comparison operators (===) to [compare type and value rather than just value (==)](http://talks.php.net/show/php-best-practices/8)
+35. [RTFM](http://en.wikipedia.org/wiki/RTFM)! PHP offers a [fantastic manual](http://www.php.net/manual/), possibly one of the best out there, which makes it a very hands on language, providing working examples and talking in plain English. [Please USE IT!](http://xkcd.com/293/)
 
 ## QUOTES
 
