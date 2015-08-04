@@ -57,7 +57,8 @@ Best Practices, however, are recommendations that may help with security, perfor
 32. [Document your code](http://talks.php.net/show/php-best-practices/16), use tools such as [phpDocumentor](http://www.phpdoc.org/)
 33. Learn how to do [Unit Testing](http://talks.php.net/show/tdd-dpc7/4) using tools such as [phpUnit](https://phpunit.de/)
 34. Use the type safe comparison operators (===) to [compare type and value rather than just value (==)](http://talks.php.net/show/php-best-practices/8)
-35. [RTFM](http://en.wikipedia.org/wiki/RTFM)! PHP offers a [fantastic manual](http://www.php.net/manual/), possibly one of the best out there, which makes it a very hands on language, providing working examples and talking in plain English. [Please USE IT!](http://xkcd.com/293/)
+35. [Avoid SQL injection](http://talks.php.net/show/php-best-practices/21) by not trusting user input and preparing your statements using parameterised queries (in [mysqli](http://php.net/manual/en/mysqli.prepare.php) or [PDO](http://www.php.net/manual/en/pdo.prepare.php))
+36. [RTFM](http://en.wikipedia.org/wiki/RTFM)! PHP offers a [fantastic manual](http://www.php.net/manual/), possibly one of the best out there, which makes it a very hands on language, providing working examples and talking in plain English. [Please USE IT!](http://xkcd.com/293/)
 
 ## QUOTES
 
