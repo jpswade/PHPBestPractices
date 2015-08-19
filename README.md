@@ -81,6 +81,7 @@ Listed here are a number of quotes that may go some way to help explain why cert
 * Talk is cheap. Show me the code. -- [Linus Torvalds](https://lkml.org/lkml/2000/8/25/132)
 * Release early, release often -- [Eric S. Raymond](https://en.wikipedia.org/wiki/The_Cathedral_and_the_Bazaar)
 * "A problem well stated is a problem half-solved." - [Charles Kettering](http://www.levyinnovation.com/a-problem-well-stated-is-half-solved)
+* "For many events, roughly 80% of the effects come from 20% of the causes" - [Vilfredo Pareto](http://www.goodreads.com/author/quotes/386776.Vilfredo_Pareto)
 
 ## BOOKS
 
