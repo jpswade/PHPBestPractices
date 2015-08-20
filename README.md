@@ -61,7 +61,7 @@ Best Practices, however, are recommendations that may help with security, perfor
 36. Avoid email address validation using complex regular expressions, consider [filter_var()](http://www.php.net/filter_var) and [FILTER_VALIDATE_EMAIL](http://php.net/manual/en/filter.filters.validate.php) and [verify the email address exists by sending a confirmation email to it](http://davidcel.is/posts/stop-validating-email-addresses-with-regex/)
 37. [Use pre-increment where possible](http://talks.php.net/show/php-best-practices/32), ++$i is faster than $i++
 38. Consider using [isset() in replace of strlen()](http://blog.dynom.nl/archives/String-length-vs-isset-to-check-string-lengths_20070807_5.html) where possible, for example: if (strlen($foo) < 5) vs. if (!isset($foo{5})), language constructs are faster than functions
-39. [Avoid using strip_tags()](http://talks.php.net/show/vrana-security/2). It's not safe to use for filtering input. Consider using [htmlspecialchars()](http://www.php.net/htmlspecialchars) convert the markup to plain text.
+39. [Avoid using strip_tags()](http://talks.php.net/show/vrana-security/2). It won't protect you against XSS (Cross-site scripting) attacks. Consider using [htmlspecialchars()](http://www.php.net/htmlspecialchars) convert the markup to plain text.
 40. When [parsing HTML or XML](http://wayback.archive.org/web/20090206223245/http://htmlparsing.icenine.ca/doku.php), don't use regular expressions, use a [DOM parser](http://www.php.net/dom)
 41. [RTFM](http://en.wikipedia.org/wiki/RTFM)! PHP offers a [fantastic manual](http://www.php.net/manual/), possibly one of the best out there, which makes it a very hands on language, providing working examples and talking in plain English. [Please USE IT!](http://xkcd.com/293/)
 
