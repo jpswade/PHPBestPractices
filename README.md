@@ -64,7 +64,8 @@ Best Practices, however, are recommendations that may help with security, perfor
 39. [Avoid using strip_tags()](http://talks.php.net/show/vrana-security/2). It won't protect you against XSS (Cross-site scripting) attacks. Consider using [htmlspecialchars()](http://www.php.net/htmlspecialchars) convert the markup to plain text.
 40. When [parsing HTML or XML](http://wayback.archive.org/web/20090206223245/http://htmlparsing.icenine.ca/doku.php), don't use regular expressions, use a [DOM parser](http://www.php.net/dom)
 41. [Avoid using exit() or die() functions for error management](http://www.phpfreaks.com/blog/or-die-must-die), use proper error handling such as [Exceptions](http://php.net/manual/en/language.exceptions.php)
-42. [RTFM](http://en.wikipedia.org/wiki/RTFM)! PHP offers a [fantastic manual](http://www.php.net/manual/), possibly one of the best out there, which makes it a very hands on language, providing working examples and talking in plain English. [Please USE IT!](http://xkcd.com/293/)
+42. Don't use [query strings for cache control on js/css files](http://www.stevesouders.com/blog/2008/08/23/revving-filenames-dont-use-querystring/), consider [filename-based cache busting instead](https://raw.githubusercontent.com/h5bp/server-configs-apache/master/src/web_performance/filename-based_cache_busting.conf).
+43. [RTFM](http://en.wikipedia.org/wiki/RTFM)! PHP offers a [fantastic manual](http://www.php.net/manual/), possibly one of the best out there, which makes it a very hands on language, providing working examples and talking in plain English. [Please USE IT!](http://xkcd.com/293/)
 
 ## QUOTES
 
