@@ -31,7 +31,7 @@ Best Practices, however, are recommendations that may help with security, perfor
 6. Avoid Error Control Operator (@) for error suppression, it's [slow and hard to debug](http://michelf.com/weblog/2005/bad-uses-of-the-at-operator/)
 7. Avoid using [print](http://www.php.net/print) instead of [echo](http://www.php.net/echo), it's [slower](http://www.phpbench.com/)
 8. Use the [alternative syntax](http://php.net/manual/en/control-structures.alternative-syntax.php), colon (:), for control structures such as 'if, while, for, foreach, and switch', when working with markup or templates
-9. Avoid "[Unnecessary Closing Delimiter](https://blogs.oracle.com/netbeansphp/entry/improve_your_code_with_new)" (?>), this avoids outputting unwanted whitespace
+9. Avoid "[Unnecessary Closing Delimiter](https://blogs.oracle.com/netbeansphp/entry/improve_your_code_with_new)" (?>), this avoids outputting unwanted whitespace. Consider putting an EOF comment instead to show a deliberate end and prove that your output is working as expected.
 10. Avoid accessing the superglobals ($_GET, $_POST, $_REQUEST, etc) directly as [user input cannot be trusted](http://talks.php.net/show/php-best-practices/19), consider using [filter_input()](http://www.php.net/filter_input)
 11. Avoid [too many nested blocks in functions](http://phpmd.org/rules/codesize.html), instead consider breaking them out into new functions
 12. Return early [[citation]](https://gist.github.com/jpswade/624074588ec55efd7537)
