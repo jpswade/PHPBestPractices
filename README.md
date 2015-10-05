@@ -66,7 +66,8 @@ Best Practices, however, are recommendations that may help with security, perfor
 41. [Avoid using exit() or die() functions for error management](http://www.phpfreaks.com/blog/or-die-must-die), use proper error handling such as [Exceptions](http://php.net/manual/en/language.exceptions.php)
 42. Don't use [query strings for cache control on js/css files](http://www.stevesouders.com/blog/2008/08/23/revving-filenames-dont-use-querystring/), consider [filename-based cache busting instead](https://raw.githubusercontent.com/h5bp/server-configs-apache/master/src/web_performance/filename-based_cache_busting.conf).
 43. To avoid potential ambiguity, it's best to use [ISO 8601 (YYYY-MM-DD) dates](http://php.net/strtotime) or [the MySQL DATETIME format ("Y-m-d H:i:s")](http://php.net/date)
-44. [RTFM](http://en.wikipedia.org/wiki/RTFM)! PHP offers a [fantastic manual](http://www.php.net/manual/), possibly one of the best out there, which makes it a very hands on language, providing working examples and talking in plain English. [Please USE IT!](http://xkcd.com/293/)
+44. Avoid using [eval()](http://www.php.net/eval). ["If eval() is the answer, you're almost certainly asking the wrong question"](https://books.google.co.uk/books?id=dm2_jgULbBUC&pg=PT115&lpg=PT115&dq=%22If+eval()+is+the+answer,+you%E2%80%99re+almost+certainly+asking+the+wrong+question.%22&source=bl&ots=0jJXPb_imA&sig=BAzHyEOvC4goCQsCX26aQloKYsg&hl=en&sa=X&ved=0CEAQ6AEwBWoVChMI0JebzciryAIViNGACh2AFAG2#v=onepage&q=%22If%20eval()%20is%20the%20answer%2C%20you%E2%80%99re%20almost%20certainly%20asking%20the%20wrong%20question.%22&f=false).
+45. [RTFM](http://en.wikipedia.org/wiki/RTFM)! PHP offers a [fantastic manual](http://www.php.net/manual/), possibly one of the best out there, which makes it a very hands on language, providing working examples and talking in plain English. [Please USE IT!](http://xkcd.com/293/)
 
 ## QUOTES
 
@@ -89,6 +90,7 @@ Listed here are a number of quotes that may go some way to help explain why cert
 
 ## BOOKS
 
+* [PHP in a Nutshell](http://amzn.to/1RqN67v)
 * [Modern PHP: New Features and Good Practices -- Josh Lockhart](http://amzn.to/1MooHQw)
 * [PHP Cookbook: Solutions & Examples for PHP Programmers -- David Sklar](http://amzn.to/1Ij4Zmn)
 * [PHP: Crash Course - The Ultimate Beginner's Course to Learning PHP Programming in Under 12 Hours -- Eprogramy](http://amzn.to/1Ij5aOJ)
