@@ -69,7 +69,8 @@ Best Practices, however, are recommendations that may help with security, perfor
 44. Avoid using [eval()](http://www.php.net/eval). ["If eval() is the answer, you're almost certainly asking the wrong question"](https://books.google.co.uk/books?id=dm2_jgULbBUC&pg=PT115&lpg=PT115&dq=%22If+eval()+is+the+answer,+you%E2%80%99re+almost+certainly+asking+the+wrong+question.%22&source=bl&ots=0jJXPb_imA&sig=BAzHyEOvC4goCQsCX26aQloKYsg&hl=en&sa=X&ved=0CEAQ6AEwBWoVChMI0JebzciryAIViNGACh2AFAG2#v=onepage&q=%22If%20eval()%20is%20the%20answer%2C%20you%E2%80%99re%20almost%20certainly%20asking%20the%20wrong%20question.%22&f=false).
 45. Consider the performance of MySQL vs PHP, [sometimes PHP is faster](http://highscalability.com/blog/2010/3/23/digg-4000-performance-increase-by-sorting-in-php-rather-than.html)
 46. If you've got slow database queries, consider [memcached](http://code.tutsplus.com/tutorials/turbocharge-your-website-with-memcached--net-23939).
-47. [RTFM](http://en.wikipedia.org/wiki/RTFM)! PHP offers a [fantastic manual](http://www.php.net/manual/), possibly one of the best out there, which makes it a very hands on language, providing working examples and talking in plain English. [Please USE IT!](http://xkcd.com/293/)
+47. Always [die() after a header Location redirect](http://richardlynch.blogspot.co.uk/2007/06/php-header-location-redirect-refresh.html), preventing the script from continuing after the client is redirected.
+48. [RTFM](http://en.wikipedia.org/wiki/RTFM)! PHP offers a [fantastic manual](http://www.php.net/manual/), possibly one of the best out there, which makes it a very hands on language, providing working examples and talking in plain English. [Please USE IT!](http://xkcd.com/293/)
 
 ## QUOTES
 
