@@ -67,7 +67,8 @@ Best Practices, however, are recommendations that may help with security, perfor
 42. Don't use [query strings for cache control on js/css files](http://www.stevesouders.com/blog/2008/08/23/revving-filenames-dont-use-querystring/), consider [filename-based cache busting instead](https://raw.githubusercontent.com/h5bp/server-configs-apache/master/src/web_performance/filename-based_cache_busting.conf).
 43. To avoid potential ambiguity, it's best to use [ISO 8601 (YYYY-MM-DD) dates](http://php.net/strtotime) or [the MySQL DATETIME format ("Y-m-d H:i:s")](http://php.net/date)
 44. Avoid using [eval()](http://www.php.net/eval). ["If eval() is the answer, you're almost certainly asking the wrong question"](https://books.google.co.uk/books?id=dm2_jgULbBUC&pg=PT115&lpg=PT115&dq=%22If+eval()+is+the+answer,+you%E2%80%99re+almost+certainly+asking+the+wrong+question.%22&source=bl&ots=0jJXPb_imA&sig=BAzHyEOvC4goCQsCX26aQloKYsg&hl=en&sa=X&ved=0CEAQ6AEwBWoVChMI0JebzciryAIViNGACh2AFAG2#v=onepage&q=%22If%20eval()%20is%20the%20answer%2C%20you%E2%80%99re%20almost%20certainly%20asking%20the%20wrong%20question.%22&f=false).
-45. [RTFM](http://en.wikipedia.org/wiki/RTFM)! PHP offers a [fantastic manual](http://www.php.net/manual/), possibly one of the best out there, which makes it a very hands on language, providing working examples and talking in plain English. [Please USE IT!](http://xkcd.com/293/)
+45. Consider the performance of MySQL vs PHP, [sometimes PHP is faster](http://highscalability.com/blog/2010/3/23/digg-4000-performance-increase-by-sorting-in-php-rather-than.html)
+46. [RTFM](http://en.wikipedia.org/wiki/RTFM)! PHP offers a [fantastic manual](http://www.php.net/manual/), possibly one of the best out there, which makes it a very hands on language, providing working examples and talking in plain English. [Please USE IT!](http://xkcd.com/293/)
 
 ## QUOTES
 
