@@ -109,4 +109,3 @@ Listed here are a number of quotes that may go some way to help explain why cert
 
 * [James Wade](http://wade.be/)
 * [Phurix Web Hosting](http://www.phurix.co.uk/)
-* [Stoneacre Motor Group](http://www.stoneacre.co.uk/)
