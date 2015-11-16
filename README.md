@@ -71,7 +71,8 @@ Best Practices, however, are recommendations that may help with security, perfor
 46. If you've got slow database queries, consider [memcached](http://code.tutsplus.com/tutorials/turbocharge-your-website-with-memcached--net-23939).
 47. Always [die() after a header Location redirect](http://richardlynch.blogspot.co.uk/2007/06/php-header-location-redirect-refresh.html), preventing the script from continuing after the client is redirected.
 48. Avoid passing by [references](http://schlueters.de/blog/archives/125-Do-not-use-PHP-references.html) where possible. The unexpected nature of the sort() function is a good example of this.
-49. [RTFM](http://en.wikipedia.org/wiki/RTFM)! PHP offers a [fantastic manual](http://www.php.net/manual/), possibly one of the best out there, which makes it a very hands on language, providing working examples and talking in plain English. [Please USE IT!](http://xkcd.com/293/)
+49. Use [Packagist](https://packagist.org/) to find the right package for the job and [Composer](https://getcomposer.org/) to manage your dependencies
+50. [RTFM](http://en.wikipedia.org/wiki/RTFM)! PHP offers a [fantastic manual](http://www.php.net/manual/), possibly one of the best out there, which makes it a very hands on language, providing working examples and talking in plain English. [Please USE IT!](http://xkcd.com/293/)
 
 ## QUOTES
 
