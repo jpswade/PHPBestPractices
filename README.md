@@ -70,7 +70,8 @@ Best Practices, however, are recommendations that may help with security, perfor
 45. Consider the performance of MySQL vs PHP, [sometimes PHP is faster](http://highscalability.com/blog/2010/3/23/digg-4000-performance-increase-by-sorting-in-php-rather-than.html)
 46. If you've got slow database queries, consider [memcached](http://code.tutsplus.com/tutorials/turbocharge-your-website-with-memcached--net-23939).
 47. Always [die() after a header Location redirect](http://richardlynch.blogspot.co.uk/2007/06/php-header-location-redirect-refresh.html), preventing the script from continuing after the client is redirected.
-48. [RTFM](http://en.wikipedia.org/wiki/RTFM)! PHP offers a [fantastic manual](http://www.php.net/manual/), possibly one of the best out there, which makes it a very hands on language, providing working examples and talking in plain English. [Please USE IT!](http://xkcd.com/293/)
+48. Avoid passing by [references](http://schlueters.de/blog/archives/125-Do-not-use-PHP-references.html) where possible. The unexpected nature of the sort() function is a good example of this.
+49. [RTFM](http://en.wikipedia.org/wiki/RTFM)! PHP offers a [fantastic manual](http://www.php.net/manual/), possibly one of the best out there, which makes it a very hands on language, providing working examples and talking in plain English. [Please USE IT!](http://xkcd.com/293/)
 
 ## QUOTES
 
