@@ -87,7 +87,7 @@ Listed here are a number of quotes that may go some way to help explain why cert
 * "Some people, when confronted with a problem, think "I know, I'll use regular expressions." Now they have two problems." -- [Jamie Zawinski, in comp.lang.emacs](http://regex.info/blog/2006-09-15/247)
 * "We should forget about small efficiencies, say about 97% of the time: premature optimization is the root of all evil. Yet we should not pass up our opportunities in that critical 3%" -- [Donald Knuth](http://en.wikipedia.org/wiki/Donald_Knuth)
 * "Everything in the box is kind of weird and quirky, but maybe not enough to make it completely worthless. And there's no clear problem with the set as a whole; it still has all the tools" -- [Alex Munroe](http://blog.codinghorror.com/the-php-singularity/)
-* "The echo chamber of geeks sitting around playing with their tools means absolutely nothing to me compared to seeing the code actually saving peoples' lives" -- Rasmus Lerdorf](http://www.infoworld.com/article/2609877/web-development/believe-the-hype--php-founder-backs-facebook-s-hiphop-technology.html)
+* "The echo chamber of geeks sitting around playing with their tools means absolutely nothing to me compared to seeing the code actually saving peoples' lives" -- [Rasmus Lerdorf](http://www.infoworld.com/article/2609877/web-development/believe-the-hype--php-founder-backs-facebook-s-hiphop-technology.html)
 * "Talk is cheap. Show me the code." -- [Linus Torvalds](https://lkml.org/lkml/2000/8/25/132)
 * "Release early, release often" -- [Eric S. Raymond](https://en.wikipedia.org/wiki/The_Cathedral_and_the_Bazaar)
 * "A problem well stated is a problem half-solved." - [Charles Kettering](http://www.levyinnovation.com/a-problem-well-stated-is-half-solved)
