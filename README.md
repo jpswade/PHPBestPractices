@@ -34,7 +34,7 @@ Best Practices, however, are recommendations that may help with security, perfor
 9. Avoid "[Unnecessary Closing Delimiter](https://blogs.oracle.com/netbeansphp/entry/improve_your_code_with_new)" (?>), this avoids outputting unwanted whitespace. Consider putting an EOF comment instead to show a deliberate end and prove that your output is working as expected.
 10. Avoid accessing the superglobals ($_GET, $_POST, $_REQUEST, etc) directly as [user input cannot be trusted](http://talks.php.net/show/php-best-practices/19), consider using [filter_input()](http://www.php.net/filter_input)
 11. Avoid [too many nested blocks in functions](http://phpmd.org/rules/codesize.html), instead consider breaking them out into new functions
-12. [Return early](https://gist.github.com/jpswade/624074588ec55efd7537)
+12. [Return early](https://pear.php.net/manual/en/standards.bestpractices.php)
 13. Avoid using the PHP mail() function direction as your mail may be subjected to [header injection](http://www.php.net/manual/en/function.mail.php#56788), PHP mail(), swiftmailer and phpmailer sucks. Try [PEAR Mail](http://pear.php.net/package/mail) instead.
 14. [Avoid reinventing the wheel](http://talks.php.net/show/php-best-practices/6), [Don't repeat yourself](http://reinholdweber.com/php/php-programmers-evolution-scribble/) [(DRY)](http://en.wikipedia.org/wiki/Don't_repeat_yourself), use existing functions, extensions (PECL) libraries (PEAR), frameworks (CodeIgniter, Zend, Laravel) as they will often already be optimised
 15. [Avoid using functions inside of loops](http://wayback.archive.org/web/20100706232020/http://www.php.lt/benchmark/phpbench.php), such as for ($x=0; $x < count($array); $x) as count() function would get called each time
